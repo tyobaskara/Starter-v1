@@ -1,0 +1,40 @@
+// FONT FAMILY
+$font_idx: 1;
+$font_default: Helvetica, Arial, sans-serif !default;
+
+// Font Family Ex. (name, 'fonts/path')
+$font_family: (
+    FuturaStd-Book: 'fonts/FuturaStd-Book_gdi',
+    FuturaStd-Light: 'fonts/FuturaStd-Light_gdi',
+    FuturaStd-Medium: 'fonts/FuturaStd-Medium_gdi',
+    FuturaStd-Bold: 'fonts/FuturaStd-Bold_gdi',
+    FuturaStd-Heavy: 'fonts/FuturaStd-Heavy_gdi',
+); 
+
+// BUTTONS
+// Default Button Ex. (button-class, background-code, font-color)
+$buttons:
+    ('btn-red', #D9534F, #FFFFFF),
+    ('btn-blue', #337AB7, #FFFFFF),
+    ('btn-green', #5CB85C, #FFFFFF);
+
+// text-align
+$align: left center right;
+
+// vertical-align
+$vertical-align: top middle bottom;
+
+// float
+$float: left right;
+
+// position
+$position: top right bottom left;
+
+// media-query
+$media-query:
+    (laptop, (min-width: 1366px)),
+    (desktop, (min-width: 1200px)),
+    (wide, (min-width: 992px)),
+    (tablet, (min-width: 768px) and (max-width: 991px)),
+    (mobile, (max-width: 767px)),
+    (small-mobile, (max-width: 360px));

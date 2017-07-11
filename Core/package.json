@@ -1,0 +1,42 @@
+{
+  "name": "html-core",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Salt Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "qwerty"
+  },
+  "keywords": [
+    "Salt",
+    "Frontend"
+  ],
+  "author": "Salt",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-processhtml": "^1.1.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.6",
+    "node-bourbon": "^4.2.8",
+    "run-sequence": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@gitlab.com:salt-frontend/nutrilon-icp.git"
+  },
+  "dependencies": {
+    "bourbon": "^4.2.7",
+    "gulp-file-include": "^1.1.0",
+    "gulp-inject-partials": "^1.0.2"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "jcf",
+  "version": "1.2.3",
+  "description": "This script allows smooth cross-browser customization of form elements with CSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3co/jcf.git"
+  },
+  "scripts": {
+    "build": "gulp build"
+  },
+  "keywords": [
+    "jQuery",
+    "JCF",
+    "form",
+    "element",
+    "style"
+  ],
+  "author": {
+    "name": "psd2html"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w3co/jcf/issues"
+  },
+  "homepage": "http://psd2html.com/jcf",
+  "main": "./js/jcf.common.js",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-uglify": "^1.5.3"
+  },
+  "gitHead": "2c671e2aacb545dc03cce373ab860f07ffacf554",
+  "_id": "jcf@1.2.3",
+  "_shasum": "9d64dc3c3d0b628e634a96ae28dfe1056ed670dc",
+  "_from": "jcf@latest",
+  "_npmVersion": "3.8.9",
+  "_nodeVersion": "6.0.0",
+  "_npmUser": {
+    "name": "inferpse",
+    "email": "smiroshnick@gmail.com"
+  },
+  "dist": {
+    "shasum": "9d64dc3c3d0b628e634a96ae28dfe1056ed670dc",
+    "tarball": "https://registry.npmjs.org/jcf/-/jcf-1.2.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "inferpse",
+      "email": "inferpse@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/jcf-1.2.3.tgz_1462393275038_0.06460339319892228"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/jcf/-/jcf-1.2.3.tgz"
+}

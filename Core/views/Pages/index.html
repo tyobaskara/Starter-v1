@@ -1,0 +1,61 @@
+
+@@include('../Shared/header.html', {
+        "style": [
+            "assets/css/Pages/homepage.css"
+        ]
+})
+
+
+
+<div class="homepage container">
+
+    <h1>Hello, world!</h1>
+
+    <a href="#" class="btn btn-green small">asdadasdas</a>
+    <input type="button" class="btn btn-blue" value="gogogogo" />
+    <button class="btn large">boooo..</button>
+    <br /><br />
+
+    <div class="row">
+    	<div class="col-sm-6 col-md-4">
+
+    		<!-- Upload File -->
+    		<div class="actions">
+    		    <div id="upload-1" data-type="zip" class="fileinput">
+    		        <!-- The fileinput-button span is used to style the file input field as button -->
+    		        <label>Upload file</label>
+    		        <div class="browse">
+    		            <input type="hidden" id="upload-Id-1" name="upload-Id-1" />
+    		            <input type="text" id="upload-1" name="upload-1" class="form-control filename" readonly value="" />
+    		            <span class="btn fileinput-button dz-clickable">
+    		                <span>Browse</span>
+    		            </span>
+    		        </div>
+
+                    <select>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                    </select>
+
+    		        <!-- HTML heavily inspired by http://blueimp.github.io/jQuery-File-Upload/ -->
+    		        <div class="table table-striped files previews"></div>
+
+    		    </div>
+    		</div>
+    		<!-- Upload File -->
+
+    	</div>
+    </div>
+
+</div>
+
+
+
+@@include('../Shared/footer.html', {
+        "script": [
+            "assets/js/Includes/homepage.js"
+        ]
+})

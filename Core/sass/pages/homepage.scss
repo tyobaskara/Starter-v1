@@ -1,0 +1,12 @@
+@import "bourbon";
+
+/* ABSTRACTS */
+@import
+    '../Abstracts/variables',
+    '../Abstracts/functions',
+    '../Abstracts/mixins'; 
+
+
+.homepage {
+	background: #cecece;
+}

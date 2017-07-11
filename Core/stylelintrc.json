@@ -1,0 +1,14 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+        "at-rule-empty-line-before": [ "always", {
+          "except": [ "blockless-group" ],
+          "ignore": [ "after-comment", "all-nested" ],
+        } ],
+        "color-hex-case": "upper",
+        "color-hex-length": "long",
+        "indentation": 4,
+        "number-leading-zero": null,
+        "unit-whitelist": [ "em", "rem", "s", "px", "%" ]
+    }
+}
